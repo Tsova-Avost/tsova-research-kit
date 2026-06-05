@@ -17,30 +17,36 @@ This project is intended for ethical security research, responsible documentatio
 
 ## Project Structure
 
+```text
 tsova-research-kit/
-+- templates/
-+- examples/
-+- tools/
-+- docs/
-+- cases/
-+- README.md
-+- LICENSE
-+- .gitignore
+├─ templates/
+├─ examples/
+├─ tools/
+├─ docs/
+├─ cases/
+├─ README.md
+├─ LICENSE
+└─ .gitignore
+```
 
 ## Usage
 
 Create a new case folder:
 
+```bash
 python tools/create_case.py example-target
+```
 
 This creates:
 
+```text
 cases/YYYY-MM-DD-example-target/
-+- recon-notes.md
-+- evidence-log.md
-+- findings.md
-+- disclosure-email.md
-+- retrospective.md
+├─ recon-notes.md
+├─ evidence-log.md
+├─ findings.md
+├─ disclosure-email.md
+└─ retrospective.md
+```
 
 ## Intended Use
 
@@ -56,4 +62,4 @@ Do not use this project to support unauthorized access, exploitation, harassment
 
 ## License
 
-See LICENSE.
+See `LICENSE`.
