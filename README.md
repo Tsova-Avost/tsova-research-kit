@@ -37,6 +37,10 @@ Create a new case folder:
 python tools/create_case.py example-target
 ```
 
+## Demo
+
+![Create case demo](docs/assets/project_gif.gif)
+
 This creates:
 
 ```text
